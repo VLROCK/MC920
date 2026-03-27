@@ -1,0 +1,6 @@
+# Força o uso de LF para notebooks e arquivos Python
+*.ipynb text eol=lf
+*.py text eol=lf
+
+# Garante que arquivos de texto comuns também sigam o padrão
+*.txt text eol=lf
