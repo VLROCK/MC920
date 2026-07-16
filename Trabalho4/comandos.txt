@@ -1,0 +1,81 @@
+#0.5 de escala
+
+python main_interpolacao.py -a 0.0 -e 0.5 -m vizinho_proximo -i imagens/seagull.png -o resultados/seagull_a0.0_e0.5_vizinho.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m bilinear -i imagens/seagull.png -o resultados/seagull_a0.0_e0.5_bilinear.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m bicubica -i imagens/seagull.png -o resultados/seagull_a0.0_e0.5_bicubica.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m Lagrange -i imagens/seagull.png -o resultados/seagull_a0.0_e0.5_Lagrange.png
+
+#2.0 de escala
+
+python main_interpolacao.py -a 0.0 -e 2.0 -m vizinho_proximo -i imagens/seagull.png -o resultados/seagull_a0.0_e2.0_vizinho.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m bilinear -i imagens/seagull.png -o resultados/seagull_a0.0_e2.0_bilinear.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m bicubica -i imagens/seagull.png -o resultados/seagull_a0.0_e2.0_bicubica.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m Lagrange -i imagens/seagull.png -o resultados/seagull_a0.0_e2.0_Lagrange.png
+
+
+#39.5 de angulo 
+
+python main_interpolacao.py -a 39.5 -e 1.0 -m vizinho_proximo -i imagens/seagull.png -o resultados/seagull_a39.5_e1.0_vizinho.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m bilinear -i imagens/seagull.png -o resultados/seagull_a39.5_e1.0_bilinear.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m bicubica -i imagens/seagull.png -o resultados/seagull_a39.5_e1.0_bicubica.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m Lagrange -i imagens/seagull.png -o resultados/seagull_a39.5_e1.0_Lagrange.png
+
+
+#45.0 de angulo + 0.75 de escala
+
+python main_interpolacao.py -a 45.0 -e 0.75 -m vizinho_proximo -i imagens/seagull.png -o resultados/seagull_a45.0_e0.75_vizinho.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m bilinear -i imagens/seagull.png -o resultados/seagull_a45.0_e0.75_bilinear.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m bicubica -i imagens/seagull.png -o resultados/seagull_a45.0_e0.75_bicubica.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m Lagrange -i imagens/seagull.png -o resultados/seagull_a45.0_e0.75_Lagrange.png
+
+#Dimensões 800x300
+
+python main_interpolacao.py -a 0.0 -d 800 300 -m vizinho_proximo -i imagens/seagull.png -o resultados/seagull_a0.0_d800x300_vizinho.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m bilinear -i imagens/seagull.png -o resultados/seagull_a0.0_d800x300_bilinear.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m bicubica -i imagens/seagull.png -o resultados/seagull_a0.0_d800x300_bicubica.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m Lagrange -i imagens/seagull.png -o resultados/seagull_a0.0_d800x300_Lagrange.png
+
+#Cidade
+
+# 0.5 de escala
+python main_interpolacao.py -a 0.0 -e 0.5 -m vizinho_proximo -i imagens/city.png -o resultados/city_a0.0_e0.5_vizinho.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m bilinear -i imagens/city.png -o resultados/city_a0.0_e0.5_bilinear.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m bicubica -i imagens/city.png -o resultados/city_a0.0_e0.5_bicubica.png
+python main_interpolacao.py -a 0.0 -e 0.5 -m Lagrange -i imagens/city.png -o resultados/city_a0.0_e0.5_Lagrange.png
+
+# 2.0 de escala
+python main_interpolacao.py -a 0.0 -e 2.0 -m vizinho_proximo -i imagens/city.png -o resultados/city_a0.0_e2.0_vizinho.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m bilinear -i imagens/city.png -o resultados/city_a0.0_e2.0_bilinear.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m bicubica -i imagens/city.png -o resultados/city_a0.0_e2.0_bicubica.png
+python main_interpolacao.py -a 0.0 -e 2.0 -m Lagrange -i imagens/city.png -o resultados/city_a0.0_e2.0_Lagrange.png
+
+# 39.5 de angulo 
+python main_interpolacao.py -a 39.5 -e 1.0 -m vizinho_proximo -i imagens/city.png -o resultados/city_a39.5_e1.0_vizinho.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m bilinear -i imagens/city.png -o resultados/city_a39.5_e1.0_bilinear.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m bicubica -i imagens/city.png -o resultados/city_a39.5_e1.0_bicubica.png
+python main_interpolacao.py -a 39.5 -e 1.0 -m Lagrange -i imagens/city.png -o resultados/city_a39.5_e1.0_Lagrange.png
+
+# 45.0 de angulo + 0.75 de escala
+python main_interpolacao.py -a 45.0 -e 0.75 -m vizinho_proximo -i imagens/city.png -o resultados/city_a45.0_e0.75_vizinho.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m bilinear -i imagens/city.png -o resultados/city_a45.0_e0.75_bilinear.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m bicubica -i imagens/city.png -o resultados/city_a45.0_e0.75_bicubica.png
+python main_interpolacao.py -a 45.0 -e 0.75 -m Lagrange -i imagens/city.png -o resultados/city_a45.0_e0.75_Lagrange.png
+
+# Dimensões 800x300
+python main_interpolacao.py -a 0.0 -d 800 300 -m vizinho_proximo -i imagens/city.png -o resultados/city_a0.0_d800x300_vizinho.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m bilinear -i imagens/city.png -o resultados/city_a0.0_d800x300_bilinear.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m bicubica -i imagens/city.png -o resultados/city_a0.0_d800x300_bicubica.png
+python main_interpolacao.py -a 0.0 -d 800 300 -m Lagrange -i imagens/city.png -o resultados/city_a0.0_d800x300_Lagrange.png
+
+
+#Registro
+
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m SIFT -l 0.75 -o resultados/foto1_SIFT_l0.75.jpg
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m ORB -l 0.75 -o resultados/foto1_ORB_l0.75.jpg
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m BRISK -l 0.75 -o resultados/foto1_BRISK_l0.75.jpg
+
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m SIFT -l 0.60 -o resultados/foto1_SIFT_l0.60.jpg
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m SIFT -l 0.90 -o resultados/foto1_SIFT_l0.90.jpg
+
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m ORB -l 0.65 -o resultados/foto1_ORB_l0.65.jpg
+python main_registro.py -i imagens/foto1A.jpg imagens/foto1B.jpg -m ORB -l 0.85 -o resultados/foto1_ORB_l0.85.jpg
